@@ -1,0 +1,518 @@
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	font-family: Verdana, Arial, san-serif;
+	font-size: 11px;
+	color: rgba(255,255,255,0.7);
+	background: #314161;
+}
+a{
+	color: white;
+}
+a:hover{
+	color: rgba(51,204,255,0.9);
+}
+
+a:link, a:visited {
+	color: white;
+	text-decoration: none;
+} 
+a:active, a:hover {
+	color: rgba(51,204,255,0.9);
+	text-decoration: none;
+}
+
+/*Nav Menu*/
+#top-nav{
+	background: linear-gradient(to bottom, white, lightgrey);
+	box-shadow:0 1px 3px rgba(0,0,0,0.4);
+	height:48px;
+	width:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:9999;
+	border-bottom:1px solid #000;
+	
+}
+#nav_wrap{
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+.nav_button{
+	height: 48px;
+	border-right: 2px solid rgba(26,44,82,1); 
+	border-radius: 3px;
+	float: left;
+}
+#logo{
+	width: 210px;
+	line-height: 37px;
+	font-family: Brandish;
+	font-size: 38px;
+	font-weight: bold;
+	display: block;
+	color: rgba(26,44,82,0.95);
+	padding-top: -5px;
+	margin: 0 0 0 25px;
+	text-align: center;
+}
+#category{
+	width: 130px;
+	color: black;
+	font-size: 19px;
+}
+#menu_nav{
+	margin: 0; padding: 0;
+	line-height: 48px;
+	text-align: left;
+}
+#menu_nav > li{
+	margin-top: 3px;
+}
+#menu_nav li{
+	list-style-type: none;
+	color: black;
+	float: left;
+	width: 130px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+}
+#menu_nav a{
+	width: 130px;
+	height: 40px;
+	color: black;
+	
+}
+#menu_nav a li{
+	width: 130px;
+	height: 40px;
+}
+
+#manu_nav a li{
+	display: block;
+}
+#menu_nav a:hover li{
+	background: linear-gradient(189deg, white, lightgrey);
+	
+}
+
+#menu_nav ul{
+	padding: 0;
+	display: none;
+	background: linear-gradient(180deg, white, lightgrey);
+}
+#menu_nav li:hover ul{
+	display: block;
+}
+#menu_nav ul{
+	width: 330px;
+	height: 120px;
+}
+#menu_nav ul li{
+	float: left;
+	font-size: 15px;
+	width: 110px;
+}
+
+.search_box{
+	float: left;
+	width: 330px;
+	padding:0;
+	height: 48px;
+	line-height: 48px;
+	border-right: 2px solid rgba(26,44,82,1); 
+	border-radius: 3px;
+}
+.search{
+	margin-left: 30px;
+	padding: 8px 15px;
+	background: rgba(50,50,50,0.2);
+	border: 0px solid #dbdbdb;
+	color: rgba(26,44,82,0.95);
+}
+.button_search{
+	position: relative;
+	padding: 6px 15px;
+	left: -8px;
+	background-color: rgba(26,44,82,1);
+	color: #fafafa;
+}
+.button_search:hover{
+	background: #fafafa;
+	border: 2px solid rgba(26,44,82,0.5);
+	color: rgba(26,44,82,1);
+}
+#login_button{
+	margin: 5px 25px 0 0;;
+	float: right;
+	width: 90px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+	border-radius: 5px;
+	background-image: linear-gradient(to bottom,#2a95c5,#21759b);
+	background-image: -o-linear-gradient(to bottom,#2a95c5,#21759b);
+	background-image: -ms-linear-gradient(to bottom,#2a95c5,#21759b);
+	background-image: -moz-linear-gradient(to bottom,#2a95c5,#21759b);
+	background-image: -webkit-linear-gradient(to bottom,#2a95c5,#21759b);
+}
+/*end Nav*/
+
+#glosport_container{
+	width: 960px;
+	margin: 0 auto;
+	padding: 0 10px;
+	background: #1a2948 url(images/glosport_bg.jpg) repeat-y;
+}
+
+/*Content*/
+p {
+	margin: 0px;
+	padding: 0px;
+}
+
+img {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+
+.cleaner {
+	clear: both;
+	width: 100%;
+	height: 1px;
+	font-size: 1px;	
+}
+
+.cleaner_with_height {
+	clear: both;
+	width: 100%;
+	height: 30px;
+	font-size: 1px;	
+}
+
+.cleaner_with_width {
+	float: left;
+	width: 20px;
+	height: 30px;
+	font-size: 1px;	
+}
+
+.buy_now_button a{
+	float: right;
+	text-align: center;
+	display: block;
+	width: 100px;
+	padding: 4px 0 5px 0;
+	margin-top: 0px;
+	color: lightgrey;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.buy_now_button a:hover{
+	color: white;
+	font-size: 15px;
+}
+
+.detail_button a{
+	float: right;
+	text-align: center;
+	display: block;
+	width: 100px;
+	padding: 4px 0 5px 0;
+	margin-top: 0px; 
+	background: url(images/glosport_btn2_01.jpg) no-repeat;
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.detail_button a:hover{
+	color: lightgrey;
+}
+
+
+/* menu */
+
+#menu_simple {
+	float: left;
+    margin-top: 95px;
+	margin-left: 32px;
+    padding: 0;
+    width: 150px;
+
+}
+
+#menu_simple ul {
+	margin: 0;
+	padding: 0;
+}
+
+#menu_simple li {
+    background: transparent;
+    border-bottom: 2px solid #c2d3f4;
+    list-style: none;
+    padding: 7px 7px;
+	font-family: Berlin Sans FB Demi;
+    width: 121px;
+}
+
+#menu_simple li a {
+    color: #1c2e54;
+    display: block;
+	font-size: 28px;
+	font-weight: 900;
+    text-decoration: none;
+}
+
+#menu_simple li:hover, #menu_simple li:active {
+    background: linear-gradient(-45deg, #006cff, #5ca1ff);
+}
+/* end of menu*/
+
+/* header */
+#glosport_header {
+	width: 960px;
+	height: 285px;
+	float: left;
+	padding: 0;
+	margin-top: 50px;
+	background: url(images/glosport_header_bg.jpg) no-repeat;
+}
+
+/* end of header */
+
+
+/* content */
+#glosport_content {
+	clear: both;
+	width: 920px;
+	padding: 0 20px;
+}
+
+#glosport_content #glosport_content_left {
+	float: left;
+	width: 188px;
+	height: 550px;
+	padding: 10px;
+	background-color: #c3c3c3;
+	border: 1px solid #212120;
+}
+
+#glosport_content #glosport_content_right {
+	float: right;
+	width: 670px;
+}
+#glosport_content_right #content_detail {
+	float: right;
+	width: 690px;
+}
+
+#content_detail .image_panel {
+	float: left;
+	border: 3px solid lightgrey;
+	padding: 7px;
+	padding-bottom: 3px;
+	background-color: darkgrey;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+
+#content_detail h1{
+	font-size: 30px;
+	text-align: center;
+	font-family: Brandish;
+	margin-bottom: 37px;
+	margin-top: 7px;
+}
+
+#content_detail h2{
+	font-size: 20px;
+}
+#content_detail h3{
+	font-size: 14px;
+	text-align: center;
+	color: white;
+}
+
+#content_detail span{
+	font-size: 13px;
+}
+
+#glosport_content_left .glosport_content_left_section{
+	clear: both;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #2b2b2a;
+	margin-bottom: 20px;
+}
+
+.glosport_content_left_section h1 {
+	font-size: 14px;
+	color: #1a2c52;
+	padding: 5px 0 5px 2px;
+	margin: 0 0 10px 0;
+	border-bottom: 1px dotted #cbc750;
+	background-image: url(images/glosport_h1_bg1.jpg);
+}
+
+.glosport_content_left_section ul {
+	padding: 0;
+	margin: 0;
+}
+
+.glosport_content_left_section ul li{
+	padding: 0 0 3px 10px;	
+	list-style-image: url(images/gambar_list2.png);
+	list-style-position: inside;
+}
+
+.glosport_content_left_section ul li a{
+	font-weight: normal;
+	font-size: 13px;
+	text-decoration: none;
+	color: white;
+}
+
+.glosport_content_left_section li a:hover, .glosport_content_left_section li .current{
+	color: rgba(255,255,255,0.5);
+}
+
+#glosport_content_right .glosport_product_box {
+	float: left;
+	width: 208px;
+	height: 250px;
+	padding: 0px;
+	border: 1px solid grey;
+}
+
+.glosport_product_box h1 {
+	padding: 3px;
+	margin: 0 0 1px 0;
+	font-size: 12px;
+	text-align: center;
+	color: #fff;
+	overflow: hidden;
+	height: 30px;
+	background: url(images/glosport_h1_bg1.jpg);
+}
+
+.glosport_product_box h2 {
+	padding: 0 0 0 0;
+	margin: 0 0 20px 0;
+	font-size: 12px;
+	color: #e6e154;
+}
+
+.glosport_product_box h3 {
+	clear: both;
+	text-align: right;
+	padding: 0;
+	margin: 5px 0;
+	font-size: 14px;
+	color: #fff;
+}
+
+.glosport_product_box ul {
+	margin: 0 0 20px 0;
+	padding: 0 0 0 20px;
+	list-style: none;
+}
+
+.glosport_product_box li {
+	padding: 0 0 3px 0;
+}
+
+.glosport_product_box p {
+	text-align: justify;
+	padding: 0 0 8px 0;
+}
+
+.glosport_product_box h1 span {
+	font-weight: normal;
+}
+
+#info_gambar{
+	float: left;
+	width: 204px;
+	height: 166px;
+	text-align: center;
+}
+
+.glosport_product_box .product_price {
+	clear: both;
+	width: 167px;
+	
+}
+
+.product_price p {
+	margin-top: 5px;
+}
+
+#next_page{
+	float: right;
+	width: 100px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 13px;
+	margin-top: 15px;
+	padding: 0 10px;
+	background: grey;
+}
+.but_page{
+	width: 60px;
+	height: 20px;
+	text-align: center;
+	display: block;
+}
+#back{
+	float: left;
+}
+#next{
+	float: right;
+	background: grey;
+	
+}
+#num_tombol{
+	width: 110px;
+	float: left;
+	text-align: center;
+}
+#num_tombol a{
+	background: grey;
+	padding: 0 2px;
+}
+
+/* end of content */
+
+/* footer */
+#glosport_footer {
+	clear: both;
+	width: 960px;
+	padding: 20px 0px 20px 0;
+	text-align: center;
+	border-top: 1px solid #25211e;
+	color: #999;
+	background-color: #111110;
+}
+
+#glosport_footer a{
+	color: #fff;
+	font-weight: normal;
+	
+}
+#glosport_footer a:hover{
+	color: rgba(51,204,255,0.9);
+	text-decoration: underline
+}
+/* end of footer */
